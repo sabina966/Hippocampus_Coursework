@@ -1,5 +1,0 @@
-import matplotlib.pyplot as plt
-import nest
-neuron = nest.Create("iaf_psc_alpha")
-neuron.get("I_e")
-neuron.get("[]")
